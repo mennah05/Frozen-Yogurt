@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 120px;
+    background-color: rgb(238, 238, 238);
+}
+.navbar-nav{
+    font-size: 17px;
+    text-align: center;
+    padding-left: 450px;
+    color: rgb(111, 107, 107);
+}
+.navbar-nav:hover{
+    cursor: pointer;
+}
+.nav-item{
+    margin-left: 70px; 
+}
+#logo{
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+}
+#drop-menu{
+    display: none;
+}
+#img{
+    width: 100%;
+    background-position: center;
+}
+#circle1{
+    height: 150px;
+    width: 150px;
+    background-color: #9cb811d0;
+    border-radius: 50%;
+    position: relative;
+    left: 1020px;
+    bottom: 285px;
+}
+#circle2{
+    height: 150px;
+    width: 150px;
+    background-color: #d90367ba;
+    border-radius: 50%;
+    position: relative;
+    left: 1040px;
+    bottom: 440px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+#yogurt{
+    background-color: rgb(238, 238, 238);
+    height: 265px;
+    position: relative;
+    bottom: 300px;
+}
+h1{
+    font-size: 20px;
+    color:rgb(89, 85, 85);
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+#h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #d90367fc;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+#p1{
+    font-size: 15px;
+    position: relative;
+    left: 300px;
+    top: 70px;
+    color:rgb(111, 107, 107) ;
+}
+#pic1{
+    position: relative;
+    left: 850px;
+    bottom: 160px;
+}
+#link{
+    color:rgb(111, 107, 107) ;
+    font-weight: 600;
+}
+#link:hover{
+    color:#9cb811d0;
+    font-weight: 600;
+}
+#nav2{
+    background-color:#9cb811d0 ;
+    height: 80px;
+    position: relative;
+    bottom: 300px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+#main{
+    height: 300px;
+    width: 1000px;
+    /* background-color: bisque; */
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+#secmain{
+    height: 300px;
+    width: 1000px;
+    /* background-color: bisque; */
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+#thirdmain{
+    height: 300px;
+    width: 1000px;
+    /* background-color: bisque; */
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+#flex{
+    position: relative;
+    bottom: 300px;
+}
+#main,#secmain,#thirdmain{
+    display: flex;
+    
+}
+.classic{
+    height: 260px;
+    width: 220px;
+    /* background-color: cornsilk; */
+    margin-left: 25px;
+}
+.p2{
+    font-size: 17px;
+    color:rgb(111, 107, 107) ;
+    text-align: left;
+    line-height: 25px;
+    margin-top: 20px;
+}
+#heading{
+    color:#d90367fc ;
+    font-size: 27px;
+}
+h3{
+    font-size: 22px;
+    color: #d90367fc ;
+    text-align: center;
+}
+#div1{
+    background-color:#9cb811d0 ;
+    height: 170px;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    padding-left: 280px;
+}
+@keyframes eg{
+    0%{color:darkorange;}
+    25%{color:darkred;}
+    50%{color:chocolate;}
+    75%{color: deeppink;}
+}
+.divs{
+    height: 150px;
+    width: 150px;
+    /* background-color: beige; */
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    animation: eg 5s infinite;
+}
+.carousel-item{
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+}
+#carsl{
+    position: relative;
+    bottom: 200px;
+}
+#div2{
+    height: 300px;
+    background-color: #d90367fc;
+    position: relative;
+    bottom:500px ;
+}
+.bi{
+    position: relative;
+    left: 550px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+}
